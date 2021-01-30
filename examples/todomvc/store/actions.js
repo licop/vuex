@@ -23,7 +23,7 @@ export default {
       commit('editTodo', { todo, done })
     })
   },
-
+  
   clearCompleted ({ state, commit }) {
     state.todos.filter(todo => todo.done)
       .forEach(todo => {
